@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div id="mediaplayer">JW Player goes here</div>
+	<script type="text/javascript" src="jwplayer.js"></script>
+	<script type="text/javascript">
+		jwplayer("mediaplayer").setup({
+			flashplayer: "http://aeu.alicdn.com/flash/JSocket.swf",
+			file: "http://www.maizitime.com/pages/video/ksrsnew.mp4",
+			image: "../preview.jpg",
+			width:960,
+			height:400
+		});
+	</script>
+</body>
+</html>

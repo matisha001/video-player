@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div id="mediaplayer">JW Player goes here</div>
+	<script type="text/javascript" src="jwplayer.js"></script>
+	<script type="text/javascript">
+		jwplayer("mediaplayer").setup({
+			flashplayer: "player.swf",
+			file: "http://www.maizitime.com/pages/video/ksrsnew.mp4",
+			image: "../preview.jpg"
+		});
+	</script>
+</body>
+</html>
